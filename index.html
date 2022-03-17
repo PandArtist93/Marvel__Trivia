@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Neucha&family=Orbitron&family=Oswald&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="bodyChange" onload="cuentaRegresiva()">
+    <div class="contenedor">
+        <div class="header"></div>
+        <div class="bienvenido">
+            <div class="titleBienvenido">
+                <h1>MARVEL TRIVIA </h1>
+            </div>
+            <br>
+            <p id="cuenta" class="reloj"> Este formulario se cerrara en: <span id="tiempoact"></span></p>
+
+            <div class="settings">
+                <input type="radio" name="settings1" value="MARVEL MOVIES">
+                <label>MARVEL MOVIES</label>
+                <input type="radio" name="settings1" value="MARVEL COMICS">
+                <label>MARVEL COMICS</label>
+                <br>
+                <label for="namePlayer" class="namePlayer">Introduce tu nombre</label>
+                <br>
+                <input type="text" id="namePlayer" name="namePlayer">
+            </div>
+
+            <button class="button" type="button" onclick="buttonPlay()">Jugar</button>
+        </div>
+        <div class="contenido" id="contenido">
+            <h2>BIENVENID@</h2>
+            <div class="mensaje">
+                <p id="usuario"> Hola</p>
+                <P>Disfruta de nuestro super juego!!</P>
+            </div>
+            <div class="grupo1">
+                <!--primera pregunta-->
+                <div class="pregunta">
+                    <p>¿Qué nombre falso usa Natasha cuando conoce a Tony por primera vez?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta1" value="Natalie Rushman">
+                    <label>Natalie Rushman</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="Nicole Rohan">
+                    <label>Nicole Rohan</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="Naya Rabe">
+                    <label>Naya Rabe</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="Natalia Romanoff">
+                    <label>Natalia Romanoff</label>
+                    <br>
+                </div>
+
+                <!--segunda pregunta-->
+                <div class="pregunta">
+                    <p>¿Cuál es la raza alienígena que Loki envía para invadir la Tierra en The Avengers?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta2" value="El chitauri">
+                    <label>El chitauri</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="Los skrulls">
+                    <label>Los skrulls</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="El kree">
+                    <label>El kree</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="Los flerkens">
+                    <label>Los flerkens</label>
+                    <br>
+                </div>
+
+                <!--tercera pregunta-->
+                <div class="pregunta">
+                    <p>¿Cómo se llama el martillo de Thor?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta3" value="Vanir">
+                    <label>Vanir</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="Mjolnir">
+                    <label>Mjolnir</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="Aesir">
+                    <label>Aesir</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="Norn">
+                    <label>Norn</label>
+                    <br>
+                </div>
+
+                <!--cuarta pregunta-->
+                <div class="pregunta">
+                    <p>¿Quién es asesinado por Loki en los Vengadores?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta4" value="Maria Hill">
+                    <label>Maria Hill</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Nick Fury">
+                    <label>Nick Fury</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Agente coulson">
+                    <label>Agente coulson</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Doctor Erik Selvig">
+                    <label>Doctor Erik Selvig</label>
+                    <br>
+                </div>
+
+            </div>
+            <div class="grupo2">
+                <!--primera pregunta-->
+                <div class="pregunta">
+                    <p>¿De qué está hecho el escudo del Capitán América?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta1" value="Adamantium">
+                    <label>Adamantium</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="Vibranio">
+                    <label>Vibranio</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="prometeo">
+                    <label>prometeo</label>
+                    <br>
+                    <input type="radio" name="respuesta1" value="Carbonadio">
+                    <label>Carbonadio</label>
+                    <br>
+                </div>
+
+                <!--segunda pregunta-->
+                <div class="pregunta">
+                    <p>Los Flerkens son una raza de alienígenas extremadamente peligrosos que se parece a qué.</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta2" value="Gatos">
+                    <label>Gatos</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="Patos">
+                    <label>Patos</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="reptiles">
+                    <label>reptiles</label>
+                    <br>
+                    <input type="radio" name="respuesta2" value="Mapaches">
+                    <label>Mapaches</label>
+                    <br>
+                </div>
+
+                <!--tercera pregunta-->
+                <div class="pregunta">
+                    <p>¿Cuál es el verdadero nombre de la Pantera Negra?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta3" value="T'Challa">
+                    <label>T'Challa</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="M'Baku">
+                    <label>M'Baku</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="N'Jadaka">
+                    <label>N'Jadaka</label>
+                    <br>
+                    <input type="radio" name="respuesta3" value="N'Jobu">
+                    <label>N'Jobu</label>
+                    <br>
+                </div>
+
+                <!--cuarta pregunta-->
+                <div class="pregunta">
+                    <p>¿Qué tipo de médico es Stephen Strange?</p>
+                </div>
+                <div class="flex">
+                    <input type="radio" name="respuesta4" value="Neurocirujano">
+                    <label>Neurocirujano</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Cirujano cardiotoracico">
+                    <label>Cirujano cardiotoracico</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Cirujano de trauma">
+                    <label>Cirujano de trauma</label>
+                    <br>
+                    <input type="radio" name="respuesta4" value="Cirujano Plástico">
+                    <label>Cirujano Plástico</label>
+                    <br>
+                </div>
+
+            </div>
+            <div class="textf">
+                <p class='comment'>Para saber si las respuestas son correctas dale click al boton</p>
+                <!--boton para saber las respuestas-->
+                <button class="button" onclick="submit()">Respuestas Correctas</button>
+                <br>
+                <button class="scroll">Volver a jugar</button>
+            </div>
+            <div class="mensaje"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+<script src="script.js" type="text/javascript"></script>
+
+</html>

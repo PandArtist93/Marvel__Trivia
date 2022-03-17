@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+h2{
+    /* color:#6B6260; */
+    color:#fdf8f7;
+    text-align: center;
+    font-size: 2em;
+    /* height: 200px; */
+    font-family: 'Neucha', cursive;
+    /* background-color: #DABD4A; */
+    /* background-color: #d92638; */
+    background-color:hsla(165, 8%, 10%, 0.871);
+    /* background-color:#2AAF82; */
+    padding: 10px 0;
+}
+
+h1{
+	color:#fff;
+	text-align: center;
+    font-family: 'Neucha', cursive;
+}
+
+.bodyChange{
+    height: auto;
+}
+
+/*clase para modificar caracteríasticas del bloque de contenido*/
+.contenido{
+    margin: auto;
+    align-items: center;
+    width: auto;
+    /* height: 200px; */
+    justify-content: space-around;
+}
+
+/*se usa para llamar al id*/
+#contenido{
+    display: none;
+}
+
+.grupo1{
+    display: none;
+    height: auto;
+}
+
+.grupo2{
+    display: none;
+}
+
+/*clase para modificar caracteríasticas del bloque de flex*/
+.flex{
+	display: inline-flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-around;
+    font-family: 'Orbitron', cursive;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: 0 auto;
+    height: auto;
+	/* overflow: hidden; */
+	background-color: #EAEDF0;
+	text-align: center;
+    background-color: #fff;
+    border-right: 1px solid #dadce0;
+	border-left: 1px solid #dadce0;
+	border-bottom: 1px solid #dadce0;
+}
+
+.header{
+	background-image: url("https://i.blogs.es/270d91/personajes-de-stan-lee/1366_2000.jpg");
+	background-size: cover;
+	background-position: top;
+	height: 250px
+}
+
+/*clase para la modificación de la sección de bienvenida*/
+.bienvenido{
+    height: auto;
+    overflow: hidden;
+    /* background-color: #d92638; */
+    background-color:#2AAF82;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    color: rgb(56, 42, 42);
+    font-family: 'Bangers', cursive;
+    line-height: 35px;
+    padding: 30px 0;
+}
+
+.titleBienvenido{
+    font-size: 30px;
+}
+
+.mensaje{
+    height: auto;
+    overflow: hidden;
+    /* background-color:hsla(160, 4%, 15%, 0.582); */
+    /* background-color:#2aaf83b4; */
+    background-color: #d92638;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;    
+    vertical-align: middle;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+/* para el color de fondo de nuestra app*/
+body{
+	/* background: #e2eee0; */
+    background: #292929;
+}
+
+/* clase para modificar las características de las preguntas*/
+.pregunta{
+	margin: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+/*clase para modificar las caracteríasticas de la ultima sección*/
+.textf{
+	margin: 20px;
+    height: 170px;
+    color: red;
+    padding: 15px 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.comment {
+    margin: 10px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/*clase para la modificación del footer o pie de página*/
+.footer{
+    background-image: url("https://img.vixdata.io/pd/webp-large/es/sites/default/files/h/hulk_marvel_comics_portada.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: 230px
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.scroll:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.scroll{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px
+}
+
+.settings label {
+    color: #292929;
+    letter-spacing: 4px;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#cuenta{
+   font-size:25px;
+   margin: 1px 5px;
+   color: #194775;
+}
+
+.reloj{
+    font-size: 16px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.namePlayer{
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.footer{
+    background-image: url("https://i.blogs.es/270d91/personajes-de-stan-lee/1366_2000.jpg");
+	background-size: cover;
+	background-position: bottom;
+	height: 250px
+}
