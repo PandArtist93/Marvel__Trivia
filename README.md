@@ -14,14 +14,18 @@ This project was created in teams [Nicol Rodriguez and Marielena Aizaga] and her
 </div>
 <br>
 <p> 📌 1) You can enter by choosing between the two categories (Movies or Comics)</p>
+<p> 📌 2) You must enter your name and click on the button "Jugar" </p>
 <div align="center">
     <img src="./images/marvel_trivia.PNG" width="800">
 </div>
 <br>
-<p> 📌 2) You must enter your name and click on the "Jugar" button</p>
+<p> 📌 3) Once the game has started, the section where the trivia questions are is displayed.</p>
+<p> 📌 4) When you finish answering you can check the answers in the button "Respuestas Correctas".</p>
+<p> 📌 5) If you want to play again you can click the  button "Volver a jugar"</p>
 <div align="center">
-    <img src="./images/marvel_trivia.PNG" width="800">
+    <img src="./images/vista_desplegada.PNG" width="800">
 </div>
+<p> ⚠ IMPORTANT ⚠ If you take more than 90 seconds to respond, the view will close. </p>
 
 
 
