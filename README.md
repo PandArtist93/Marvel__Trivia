@@ -29,7 +29,7 @@ This project was created in teams [Nicol Rodriguez and Marielena Aizaga] and her
 
 ***
 
-tambien puedes visualizar la primera versión desplegada en replit 👉![🔗](https://hito-2-nicolerodrigu11.squad8dupla2.repl.co/) 
+tambien puedes visualizar la primera versión desplegada en replit 👉[🔗](https://hito-2-nicolerodrigu11.squad8dupla2.repl.co/) 
 
 
 
