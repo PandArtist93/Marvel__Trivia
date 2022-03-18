@@ -26,6 +26,8 @@ This project was created in teams [Nicol Rodriguez and Marielena Aizaga] and her
     <img src="./images/vista_desplegada.PNG" width="800">
 </div>
 <p> ⚠ IMPORTANT ⚠ If you take more than 90 seconds to respond, the view will close. </p>
+***
+tambien puedes visualizar la primera versión desplegada en replit 👉![🔗](https://hito-2-nicolerodrigu11.squad8dupla2.repl.co/) 
 
 
 
