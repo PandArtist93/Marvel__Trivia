@@ -25,7 +25,7 @@ This project was created in teams [Nicol Rodriguez and Marielena Aizaga] and her
 <div align="center">
     <img src="./images/vista_desplegada.PNG" width="800">
 </div>
-<p> ⚠ IMPORTANT ⚠ If you take more than 90 seconds to respond, the view will close. </p>
+<p align="center"> ⚠ IMPORTANT ⚠ If you take more than 90 seconds to respond, the view will close. </p>
 
 ***
 
